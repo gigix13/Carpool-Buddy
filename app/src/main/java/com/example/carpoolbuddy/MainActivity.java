@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseFirestore firestore;
     private String name;
 
-    /*
+    /**
     the buttons on the screen to bring user to different pages
     adding a new vehicle - AddVehicleActivity
     going to the user info page - UserProfileActivity
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     logging out - AuthActivity
      */
 
-    public void addVehicle(View view){
+    public void addNewVehicle(View view){
         Intent i = new Intent(this, com.example.carpoolbuddy.AddVehicleActivity.class );
         startActivity(i);
     }
