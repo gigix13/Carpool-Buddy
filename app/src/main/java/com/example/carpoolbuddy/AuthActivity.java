@@ -32,9 +32,9 @@ public class AuthActivity extends AppCompatActivity {
     private FirebaseFirestore firestore;
 
     //button to go to sign up page instead
-    public void signUp(View v){
-        Intent intent = new Intent(this, SignUp.class );
-        startActivity(intent);
+    public void signUp(View view){
+        Intent i = new Intent(this, SignUp.class );
+        startActivity(i);
     }
 
     /**
