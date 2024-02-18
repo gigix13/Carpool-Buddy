@@ -30,7 +30,7 @@ import java.util.Objects;
 /**
  * this class is the main page after the user signs in/up
  * their vehicles are displayed
- * there are options to go to other pages:
+ * there are options to go to other pages such as:
  * adding new vehicle, going to user profile, going to all vehicles, etc
  *
  * @author Gigi Xiao
